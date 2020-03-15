@@ -64,6 +64,4 @@ app.get("/playstoreapps", (req, res) => {
   res.json(result);
 });
 
-app.listen(8000, () => {
-  console.log("Server started on PORT 8000");
-});
+module.exports = app;
